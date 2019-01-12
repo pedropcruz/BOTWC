@@ -1,0 +1,6 @@
+@import url("utils/variables.scss");
+@import url("utils/mixins.scss");
+html,
+body {
+  margin: 0;
+  padding: 0; }

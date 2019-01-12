@@ -1,0 +1,15 @@
+{
+  "name": "botwc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "author": "Pedro Cruz",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
