@@ -1,8 +1,16 @@
-@import url('utils/variables.scss');
-@import url('utils/mixins.scss');
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'utils/variables';
+@import 'utils/fonts';
+@import 'utils/mixins';
 
 html,
 body{
 	margin: 0;
 	padding: 0;
+	background: $backgroundBody;
 }
+
+
+// IMPORT DIFFERENT STYLES FROM OTHER COMPONENTS
+
+@import 'nav/main';
