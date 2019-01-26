@@ -6926,6 +6926,35 @@ a.text-dark:hover, a.text-dark:focus {
   src: url("assets/fonts/BebasNeue/BebasNeue-Regular.otf"), url("assets/fonts/BebasNeue/BebasNeue-Regular.ttf") format("truetype");
   /* Safari, Android, iOS */ }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("assets/fonts/icons/icomoon.eot?it6zlh");
+  src: url("assets/fonts/icons/icomoon.eot?it6zlh#iefix") format("embedded-opentype"), url("assets/fonts/icons/icomoon.ttf?it6zlh") format("truetype"), url("assets/fonts/icons/icomoon.woff?it6zlh") format("woff"), url("assets/fonts/icons/icomoon.svg?it6zlh#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-cart:before {
+  content: "\e93a"; }
+
+.icon-map:before {
+  content: "\e94c"; }
+
+.icon-search:before {
+  content: "\e986"; }
+
 html,
 body {
   margin: 0;
@@ -6934,5 +6963,10 @@ body {
 
 ul.nav {
   font: 200 1.2em/1.4em "Bebas Neue"; }
+  ul.nav li {
+    background-color: transparent;
+    transition: background-color .3s ease-in-out; }
+    ul.nav li:hover {
+      background: yellow; }
   ul.nav a {
     color: black; }
