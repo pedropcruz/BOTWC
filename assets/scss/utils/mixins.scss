@@ -1,0 +1,11 @@
+@mixin various-font-size-children(){
+	&:nth-child(n+1){
+		font-size: 1.17em;
+	}
+	&:nth-child(n+2){
+		font-size: 1.25em;
+	}
+	&:nth-child(n+3){
+		font-size: 1.4em;
+	}
+}

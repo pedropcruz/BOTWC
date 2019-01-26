@@ -6970,3 +6970,32 @@ ul.nav {
       background: yellow; }
   ul.nav a {
     color: black; }
+  ul.nav.logo {
+    background-color: #000; }
+    ul.nav.logo li a {
+      color: white;
+      text-align: center; }
+      ul.nav.logo li a strong {
+        line-height: .9em; }
+        ul.nav.logo li a strong::after {
+          content: "\A";
+          white-space: pre; }
+        ul.nav.logo li a strong:nth-child(n+1) {
+          font-size: 1.17em; }
+        ul.nav.logo li a strong:nth-child(n+2) {
+          font-size: 1.25em; }
+        ul.nav.logo li a strong:nth-child(n+3) {
+          font-size: 1.4em; }
+    ul.nav.logo li:hover {
+      background: inherit; }
+
+section.slider {
+  height: 800px; }
+  section.slider:before {
+    content: "BOTWC";
+    display: block;
+    position: relative;
+    text-align: center;
+    opacity: .1;
+    color: gray;
+    font: 900 30em/1.2em "Bebas Neue"; }

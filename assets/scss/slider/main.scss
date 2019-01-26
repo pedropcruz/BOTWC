@@ -1,0 +1,12 @@
+section.slider{
+	height: 800px;
+	&:before{
+		content: "BOTWC";
+		display: block;
+		position: relative;
+		text-align:center;
+		opacity: .1;
+		color:gray;
+		font: 900 30em/1.2em $fontPrimary;
+	}
+}

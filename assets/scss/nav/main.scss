@@ -10,4 +10,24 @@ ul.nav{
 	a{
 		color: black;
 	}
+	&.logo{
+		background-color: #000;
+		li{ 
+			a{
+				color: white;
+				text-align: center;
+				strong{
+					line-height: .9em;
+					&::after{
+						content: "\A";
+						white-space: pre;
+					}
+					@include various-font-size-children();
+				}
+			}
+			&:hover{
+				background: inherit;
+			}
+		}
+	}
 }
