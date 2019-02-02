@@ -1,5 +1,6 @@
 section.slider{
-	height: 800px;
+	position: relative;
+	width: 100%;
 	&:before{
 		content: "BOTWC";
 		display: block;
@@ -8,5 +9,24 @@ section.slider{
 		opacity: .1;
 		color:gray;
 		font: 900 30em/1.2em $fontPrimary;
+	}
+	.slider-wrapper{
+		position: absolute;
+		display: block;
+		top:0;
+		left:0;
+		.slider-item{
+			display: flex !important;
+			position: relative;
+			&-description{
+
+			}
+			&-figure{
+				img{
+					width: 400px;
+					height: 400px;
+				}
+			}
+		}
 	}
 }

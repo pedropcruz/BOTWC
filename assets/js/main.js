@@ -3,7 +3,7 @@
 	'use strict';
 
 	function applySlick () {
-		$('section.slider').slick({
+		$('.slider-wrapper').slick({
 			arrows: true,
 			dots: true,
 		});
