@@ -4,22 +4,21 @@ section.slider{
 	&:before{
 		content: "BOTWC";
 		display: block;
-		position: relative;
+		position: absolute;
+		width: 100%;
 		text-align:center;
 		opacity: .1;
 		color:gray;
 		font: 900 30em/1.2em $fontPrimary;
 	}
 	.slider-wrapper{
-		position: absolute;
-		display: block;
-		top:0;
-		left:0;
 		.slider-item{
 			display: flex !important;
 			position: relative;
+			justify-content: center;
+			align-items: center;
 			&-description{
-
+				margin-right: 2.5em;
 			}
 			&-figure{
 				img{

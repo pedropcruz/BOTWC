@@ -6995,19 +6995,19 @@ section.slider {
   section.slider:before {
     content: "BOTWC";
     display: block;
-    position: relative;
+    position: absolute;
+    width: 100%;
     text-align: center;
     opacity: .1;
     color: gray;
     font: 900 30em/1.2em "Bebas Neue"; }
-  section.slider .slider-wrapper {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0; }
-    section.slider .slider-wrapper .slider-item {
-      display: flex !important;
-      position: relative; }
-      section.slider .slider-wrapper .slider-item-figure img {
-        width: 400px;
-        height: 400px; }
+  section.slider .slider-wrapper .slider-item {
+    display: flex !important;
+    position: relative;
+    justify-content: center;
+    align-items: center; }
+    section.slider .slider-wrapper .slider-item-description {
+      margin-right: 2.5em; }
+    section.slider .slider-wrapper .slider-item-figure img {
+      width: 400px;
+      height: 400px; }
