@@ -4,7 +4,7 @@ ul.nav{
 		background-color: transparent;
 		transition: background-color .3s ease-in-out;
 		&:hover{
-			background: yellow;
+			background: $primaryColor;
 		}
 	}
 	a{
