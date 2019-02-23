@@ -1,0 +1,39 @@
+section.articles-container{
+	margin-top: 2em;
+	.articles{
+		&-title{
+			margin: 0 auto;
+			text-align: center;
+			font: 700 2.2em/2em $fontPrimary;
+		}
+		&-item{
+			figure{
+				position: relative;
+				max-width: 400px;
+				img{
+					width: 100%;
+				}
+				h1{
+					position: absolute;
+					bottom:0;
+					left:0;
+					margin:0;
+					padding: .4em;
+					background: green;
+					font-size: 1.4em;
+					font-family: $fontPrimary;
+				}
+			}
+			h4 {
+				font-size: 1.7em;
+				font-family: $fontPrimary;
+			}
+			a{
+				text-transform: uppercase;
+				color: yellow;
+				font-family: $fontPrimary;
+				font-size:1.2em;
+			}
+		}
+	}
+}
