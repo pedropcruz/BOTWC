@@ -1,0 +1,21 @@
+section.slider{
+	.slider-item-description{
+		margin-right: 2.5em;
+		h2{
+			background: $primaryColor;
+			font-size: 1.6em;
+			padding: .4em .7em;
+			font-family: $fontPrimary;
+			line-height: 1em;
+		}
+		h4{
+			font: 400 2em/1.2em $fontPrimary; 
+		}
+		a{
+			font-family: $fontPrimary;
+			color: $primaryColor;
+			text-decoration: underline;
+			font-size: 1.9em;
+		}
+	}
+}

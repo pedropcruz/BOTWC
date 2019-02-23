@@ -1,0 +1,20 @@
+section.slider{
+	.slider-buttons{
+		position: absolute;
+		top: 50%;
+		right: -4em;
+		button{
+			background: transparent;
+			border: 0;
+			padding: .5em;
+			transition: background .3s;
+			&:focus{
+				outline: 0;
+			}
+			&:hover{
+				cursor: pointer;
+				background: $primaryColor;
+			}
+		}
+	}
+}

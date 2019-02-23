@@ -11,21 +11,4 @@ section.slider{
 		color:gray;
 		font: 900 30em/1.2em $fontPrimary;
 	}
-	.slider-wrapper{
-		.slider-item{
-			display: flex !important;
-			position: relative;
-			justify-content: center;
-			align-items: center;
-			&-description{
-				margin-right: 2.5em;
-			}
-			&-figure{
-				img{
-					width: 400px;
-					height: 400px;
-				}
-			}
-		}
-	}
 }

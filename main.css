@@ -6946,6 +6946,12 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-right:before {
+  content: "\e901"; }
+
+.icon-left:before {
+  content: "\e900"; }
+
 .icon-cart:before {
   content: "\e93a"; }
 
@@ -6967,7 +6973,7 @@ ul.nav {
     background-color: transparent;
     transition: background-color .3s ease-in-out; }
     ul.nav li:hover {
-      background: yellow; }
+      background: #e6bf06; }
   ul.nav a {
     color: black; }
   ul.nav.logo {
@@ -7001,16 +7007,6 @@ section.slider {
     opacity: .1;
     color: gray;
     font: 900 30em/1.2em "Bebas Neue"; }
-  section.slider .slider-wrapper .slider-item {
-    display: flex !important;
-    position: relative;
-    justify-content: center;
-    align-items: center; }
-    section.slider .slider-wrapper .slider-item-description {
-      margin-right: 2.5em; }
-    section.slider .slider-wrapper .slider-item-figure img {
-      width: 400px;
-      height: 400px; }
 
 section.articles-container {
   margin-top: 2em; }
@@ -7040,3 +7036,81 @@ section.articles-container {
     color: yellow;
     font-family: "Bebas Neue";
     font-size: 1.2em; }
+
+section.slider .slider-wrapper .slider-item {
+  margin-top: 12em;
+  display: flex !important;
+  position: relative;
+  justify-content: center;
+  align-items: center; }
+  section.slider .slider-wrapper .slider-item-figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
+    max-height: 400px;
+    overflow: hidden; }
+    section.slider .slider-wrapper .slider-item-figure img {
+      position: relative;
+      height: 100%; }
+    section.slider .slider-wrapper .slider-item-figure .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 2em;
+      border: 2em solid white; }
+
+section.slider .slider-wrapper .slick-dots {
+  top: 55%;
+  right: -12em;
+  width: auto; }
+  section.slider .slider-wrapper .slick-dots li button:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    background: gray;
+    border-radius: 50%; }
+  section.slider .slider-wrapper .slick-dots li.slick-active button:before {
+    background: #e6bf06;
+    opacity: 1; }
+
+section.slider .slider-item-description {
+  margin-right: 2.5em; }
+  section.slider .slider-item-description h2 {
+    background: #e6bf06;
+    font-size: 1.6em;
+    padding: .4em .7em;
+    font-family: "Bebas Neue";
+    line-height: 1em; }
+  section.slider .slider-item-description h4 {
+    font: 400 2em/1.2em "Bebas Neue"; }
+  section.slider .slider-item-description a {
+    font-family: "Bebas Neue";
+    color: #e6bf06;
+    text-decoration: underline;
+    font-size: 1.9em; }
+
+section.slider .slider-buttons {
+  position: absolute;
+  top: 50%;
+  right: -4em; }
+  section.slider .slider-buttons button {
+    background: transparent;
+    border: 0;
+    padding: .5em;
+    transition: background .3s; }
+    section.slider .slider-buttons button:focus {
+      outline: 0; }
+    section.slider .slider-buttons button:hover {
+      cursor: pointer;
+      background: #e6bf06; }
+
+.slider-paging {
+  position: absolute;
+  top: 54.5%;
+  right: -2.5em; }
